@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/27/16/09/grass-275986_1280.jpg);
+    background-size: cover;
+}
+img{
+    height: 100px;
+    width: 100px;
+    animation-name: ball;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay:2s ;
+    animation-direction: alternate;
+}
+
+@keyframes ball{
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top:0px;
+        left:700px;
+    }
+    50%{
+        top:500px;
+        left:700px;
+    }
+    75%{
+        top:500px;
+        left:0px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+}
